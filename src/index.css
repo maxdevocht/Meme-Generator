@@ -58,8 +58,14 @@ main {
 
 .form {
   display: grid;
-  grid-template: 40px 40px / 1fr 1fr;
+  grid-template: 100% 100% / 1fr 1fr;
   gap: 1rem;
+}
+
+.form--label {
+  font-family: 'Karla', sans-serif;
+  font-size: 0.875rem;
+  margin-bottom: 5px;
 }
 
 .form--input {
@@ -67,6 +73,8 @@ main {
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
+  height: 35px;
+  width: 100%;
 }
 
 .form--btn {
