@@ -1,9 +1,15 @@
 import React from 'react'
+import memesData from 'memesData.js'
 
 export default function Meme() {
+
+    function getMemeImage() {
+        
+    }
+
     return (
         <main>
-            <form className='form' action="">
+            <div className='form' action="">
 
                 <label htmlFor='top-text' className='form--label'>Top Text
                     <input 
@@ -23,8 +29,12 @@ export default function Meme() {
                     />
                 </label>
 
-                <button className='form--btn'>Get a new meme image  🖼</button>
-            </form>
+                <button 
+                    onClick={getMemeImage} 
+                    className='form--btn'>
+                    Get a new meme image  🖼
+                </button>
+            </div>
         </main>
     )
 }
