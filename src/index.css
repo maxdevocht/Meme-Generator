@@ -24,7 +24,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  background: linear-gradient(90deg, #2fbc4b 1.18%, #3d8f94 100%);
 }
 
 .title {
@@ -51,3 +51,30 @@ header > h2 {
   color: var(--color-white);
 }
 
+/* form styling */
+main {
+  padding: 2.25rem;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 1rem;
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form--btn {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #2fbc4b 1.18%, #3d8f94 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
