@@ -20,17 +20,21 @@ body {
 header {
   min-height: 65px;
   width: 100vw;
-  padding: 0 30px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--color-purple);
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
 }
 
 .title {
   display: flex;
   align-items: center;
   gap: .75rem;
+}
+
+.header--img {
+  height: 100%;
 }
 
 .title h1 {
