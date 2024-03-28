@@ -59,8 +59,8 @@ main {
 
 .form {
   display: grid;
-  grid-template: 100% 100% / 1fr 1fr;
-  gap: 1rem;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 1.5rem;
 }
 
 .form--label {
@@ -86,4 +86,8 @@ main {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+.meme--img {
+  max-width: 100%;
 }
