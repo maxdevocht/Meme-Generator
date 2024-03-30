@@ -61,6 +61,7 @@ main {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 1.5rem;
+  margin-bottom: 17px;
 }
 
 .form--label {
@@ -90,4 +91,5 @@ main {
 
 .meme--img {
   max-width: 100%;
+  border-radius: 5px;
 }
