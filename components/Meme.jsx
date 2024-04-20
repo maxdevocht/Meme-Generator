@@ -22,6 +22,14 @@ export default function Meme() {
         }))
     }
 
+    function handleChange(event) {
+        const {name, value} = event.target
+        setMeme(prevMeme => ({
+            ...prevMeme,
+            [name]: value
+        }))
+    }
+
     return (
         <main>
             <div className='form' action="">
@@ -32,6 +40,9 @@ export default function Meme() {
                         className='form--input' 
                         type="text" 
                         placeholder='Shut up'
+                        name="topText"
+                        value={meme.topText}
+                        onChange={handleChange}
                     />
                 </label>
 
@@ -41,6 +52,9 @@ export default function Meme() {
                         className='form--input' 
                         type="text" 
                         placeholder='and take my money'
+                        name="bottomText"
+                        value={meme.bottomText}
+                        onChange={handleChange}
                     />
                 </label>
 
