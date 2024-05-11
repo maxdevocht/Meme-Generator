@@ -131,3 +131,8 @@ main {
 .top {
   top: 0;
 }
+
+.main {
+  max-width: 630px;
+  margin: 0 auto;
+}

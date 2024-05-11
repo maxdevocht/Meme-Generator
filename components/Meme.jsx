@@ -35,7 +35,7 @@ export default function Meme() {
     }
 
     return (
-        <main>
+        <main className='main'>
             <div className='form' action="">
 
                 <label htmlFor='top-text' className='form--label'>Top Text
