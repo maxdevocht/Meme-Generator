@@ -7,7 +7,7 @@ export default function Header() {
                 <img className='header--img' src="/Troll-Face.svg" alt="Logo" />
                 <h1>Meme Generator</h1>
             </div>
-            <h2>My React App</h2>
+            <h2>My React App using API</h2>
         </header>
     )
 }
